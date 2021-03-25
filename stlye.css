@@ -1,0 +1,432 @@
+.navigation {
+    display: grid;
+    grid-template-columns: 200px 600px 100px 100px 100px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Varela', sans-serif;
+}
+
+.dropbtn {
+    background-color: transparent;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #FFDCDC;
+    text-decoration: hotpink underline;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    color: hotpink;
+}
+
+nav.fill .navigation {
+    transition: all 2s;
+}
+
+nav.fill .navigation:after {
+    text-align: left;
+    content: '';
+    margin: 0 auto;
+}
+
+nav.fill #projects:hover {
+    color: green;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+nav.fill #about:hover {
+    color: hotpink;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+nav.fill #resume:hover {
+    color: green;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+nav.fill #contact:hover {
+    color: hotpink;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+nav.fill .navigation:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+
+#logo {
+    padding-top: 10px;
+    grid-column: 1;
+}
+
+#projects {
+    grid-column: 3;
+}
+
+.hero img {
+    padding-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.hero2 {
+    display: grid;
+    grid-template-columns: 600px 500px 200px 200px 200px 100px;
+    grid-template-rows: 150px 10px 140px 150px 135px 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#hi {
+    grid-column: 2;
+    grid-row: 2;
+    font-family: 'Varela', sans-serif;
+}
+
+#vivian {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 40px;
+    font-family: 'Viga', sans-serif;
+}
+#vivian:hover {
+    color: red;
+}
+
+#check:hover {
+    animation: sway1 5s infinite;
+    transform-origin: 25% 50% 75% 100% 0;
+}
+
+@keyframes sway1 {
+    0%, 100% {
+        transform: rotate(-6deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(6deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+}
+
+#ux {
+    grid-column: 2;
+    grid-row: 4;
+    font-family: 'Varela', sans-serif;
+}
+
+#check {
+    grid-column: 2;
+    grid-row: 5;
+    font-family: 'Varela', sans-serif;
+}
+
+.content {
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#featuredProjects {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Viga', sans-serif;
+}
+
+
+#thumbNails {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 0px 500px 330px 300px;
+    grid-template-rows: 20px 100px 200px 400px 300px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#thumbNails img{
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+/* #dosBot:hover{
+	opacity: .5;
+} */
+#ccl:hover {
+	opacity: .5;
+}
+#dosBot {
+    width: 800px;
+    height: 480px;
+    grid-column: 2;
+    grid-row: 1; 
+    border-radius: 10px;
+}
+#uxResearcher{
+    grid-column: 4;
+    grid-row: 2;
+}
+#ccl {
+    width: 525px;
+    height: 430px;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.connect {
+    display: grid;
+    grid-template-rows: 50px 50px 100px 60px 60px 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#let {
+    text-align: center;
+    grid-row: 1;
+    font-size: 20px;
+    font-family: 'Viga', sans-serif;
+}
+
+.woodie {
+    display: flex;
+    flex-direction: column;
+}
+
+#would {
+    text-align: center;
+    grid-row: 3;
+    font-size: 20px;
+    width: 600px;
+    padding-left: 300px;
+    font-family: 'Varela', sans-serif;
+}
+
+#coffee p {
+    font-size: 12px;
+}
+
+#coffee {
+    display: flex;
+    justify-content: center;
+}
+
+#coffee img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+#email {
+    text-align: center;
+    grid-row: 4;
+    font-size: 20px;
+    width: 600px;
+    padding-left: 300px;
+    font-family: 'Viga', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Varela', sans-serif;
+}
+
+#footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footer3 {
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 1;
+    padding-left: 25px;
+}
+
+#github {
+    grid-column: 1;
+}
+
+#linkedin {
+    grid-column: 2;
+}
+
+#youtube {
+    grid-column: 3;
+}
+
+#footer4 {
+    text-align: center;
+}
+
+.container {
+    grid-column: 2;
+    grid-row: 6;
+    width: 24px;
+    height: 24px;
+}
+
+.chevron {
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before, .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: black;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+.text {
+    display: block;
+    margin-top: 75px;
+    margin-left: -30px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1;
+    }
+}
