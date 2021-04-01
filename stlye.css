@@ -141,6 +141,7 @@ nav.fill .navigation:hover:after {
 #check:hover {
     animation: sway1 5s infinite;
     transform-origin: 25% 50% 75% 100% 0;
+    cursor: pointer;
 }
 
 @keyframes sway1 {
@@ -356,6 +357,7 @@ footer {
     grid-row: 6;
     width: 24px;
     height: 24px;
+    
 }
 
 .chevron {
