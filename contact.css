@@ -1,0 +1,217 @@
+.navigation {
+    display: grid;
+    grid-template-columns: 200px 600px 100px 100px 100px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Varela', sans-serif;
+    padding-top: 20px;
+}
+#projects {
+    grid-column: 3;
+}
+#logo {
+    font-size: 35px;
+    font-family: 'Viga', sans-serif;
+}
+
+
+.dropbtn {
+    background-color: transparent;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #FFDCDC;
+    text-decoration: hotpink underline;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    color: hotpink;
+}
+
+nav.fill .navigation {
+    transition: all 2s;
+}
+
+nav.fill .navigation:after {
+    text-align: left;
+    content: '';
+    margin: 0 auto;
+}
+
+nav.fill #projects:hover {
+    color: green;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+nav.fill #about:hover {
+    color: hotpink;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+nav.fill #resume:hover {
+    color: green;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+nav.fill #contact:hover {
+    color: hotpink;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+nav.fill .navigation:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+
+.bd-example {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bd-example p {
+    color: black;
+}
+.bd-example h5 {
+    color: black;
+}
+
+.information {
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.accordion {
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer {
+   padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Varela', sans-serif;
+}
+
+#footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footer3 {
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 1;
+    padding-left: 25px;
+}
+
+#github {
+    grid-column: 1;
+}
+
+#linkedin {
+    grid-column: 2;
+}
+
+#youtube {
+    grid-column: 3;
+}
+
+#footer4 {
+    text-align: center;
+}
+
+.yellow {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.aboutName {
+    padding-top: 20px;
+    font-family: 'Viga', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.aboutName h1 {
+    padding-top: 40px;
+}
+
+
+.aboutName h5 {
+    padding-top: 15px;
+    font-family: 'Varela', sans-serif;
+}
+
+#resume a {
+    color: black;
+}
+
+#resume a :hover {
+    color: green;
+}
+#contact a {
+    color: black;
+}
+
+#contact a :hover {
+    color: hotpink;
+}

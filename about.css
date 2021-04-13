@@ -131,7 +131,7 @@ nav.fill .navigation:hover:after {
     margin: 0 auto;
 }
 footer {
-   padding-top: 20px;
+   padding-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -172,4 +172,55 @@ footer {
 
 #footer4 {
     text-align: center;
+}
+
+.yellow {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.aboutName {
+    padding-top: 20px;
+    font-family: 'Viga', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.aboutName h1 {
+    padding-top: 40px;
+}
+
+
+.aboutName h5 {
+    padding-top: 15px;
+    font-family: 'Varela', sans-serif;
+}
+
+#resume a {
+    color: black;
+}
+
+#resume a :hover {
+    color: green;
+}
+
+.social {
+    padding-top: 100px;
+    padding-left: 250px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#contact a {
+    color: black;
+}
+
+#contact a :hover {
+    color: hotpink;
 }
