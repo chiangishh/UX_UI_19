@@ -6,14 +6,39 @@
     font-family: 'Varela', sans-serif;
     padding-top: 20px;
 }
+#contact a {
+    color: black;
+    text-decoration: none;
+}
+
+#contact a :hover {
+    color: hotpink;
+}
+#about a {
+    color: black;
+}
+#about a {
+    text-decoration: none;
+}
+#about a :hover {
+    color: hotpink;
+    text-decoration: none;
+}
+#projects a {
+    color: black;
+    text-decoration: none;
+}
+#projects a :hover {
+    color: green;
+}
 #projects {
     grid-column: 3;
 }
+
 #logo {
     font-size: 35px;
     font-family: 'Viga', sans-serif;
 }
-
 
 .dropbtn {
     background-color: transparent;
@@ -108,30 +133,8 @@ nav.fill .navigation:hover:after {
     opacity: 1;
 }
 
-.bd-example {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.bd-example p {
-    color: black;
-}
-.bd-example h5 {
-    color: black;
-}
-
-.information {
-    padding-top: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.accordion {
-    padding-top: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 footer {
-   padding-top: 50px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,31 +177,10 @@ footer {
     text-align: center;
 }
 
-.yellow {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    max-width: 1200px;
-    margin: 0 auto;
+.button {
+    /* padding-top: 200px; */
     display: flex;
-    justify-content: space-around; 
-}
-
-.aboutName {
-    padding-top: 20px;
-    font-family: 'Viga', sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
-
-
-}
-.aboutName h1 {
-    padding-top: 40px;
-}
-
-
-.aboutName h5 {
-    padding-top: 15px;
-    font-family: 'Varela', sans-serif;
+    justify-content: center;
 }
 
 #resume a {
@@ -209,55 +191,5 @@ footer {
 #resume a :hover {
     color: green;
 }
-#contact a {
-    text-decoration: none;
-    color: black;
-}
 
-#contact a :hover {
-    color: hotpink;
-    text-decoration: none;
-}
-#about a {
-    color: black;
-}
-#about a {
-    text-decoration: none;
-}
-#about a :hover {
-    color: hotpink;
-    text-decoration: none;
-}
-#projects a {
-    color: black;
-    text-decoration: none;
-}
-#projects a :hover {
-    color: green;
-}
-#projects {
-    grid-column: 3;
-}
 
-.arms {
-    padding-top: 20px;
-    font-family: 'Viga', sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 500px 50px 600px 600px;
-    grid-template-rows: 100px 200px 300px 200px;
-}
-.arms img {
-    width: 500px;
-    height: 700px;
-}
-.heading3 {
-    grid-column: 3 ;
-    grid-row: 3;
-    font-family: 'Varela', sans-serif;
-}
-.title {
-    grid-column: 3;
-    grid-row: 2;
-}
