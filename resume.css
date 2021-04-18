@@ -6,7 +6,27 @@
     font-family: 'Varela', sans-serif;
     padding-top: 20px;
 }
+#contact a {
+    color: black;
+}
 
+#contact a :hover {
+    color: hotpink;
+}
+#about a {
+    color: black;
+}
+
+#about a :hover {
+    color: hotpink;
+}
+#projects a {
+    color: black;
+    text-decoration: none;
+}
+#projects a :hover {
+    color: green;
+}
 #projects {
     grid-column: 3;
 }

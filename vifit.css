@@ -245,3 +245,10 @@ footer {
 #contact a :hover {
     color: hotpink;
 }
+#projects a {
+    color: black;
+    text-decoration: none;
+}
+#projects a :hover {
+    color: green;
+}

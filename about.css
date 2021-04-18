@@ -200,9 +200,23 @@ footer {
     padding-top: 15px;
     font-family: 'Varela', sans-serif;
 }
-
+#projects a {
+    color: black;
+    text-decoration: none;
+}
+#projects a :hover {
+    color: green;
+}
+#about a {
+    color: black;
+    text-decoration: none;
+}
+#about a :hover {
+    color: hotpink;
+}
 #resume a {
     color: black;
+    text-decoration: none;
 }
 
 #resume a :hover {
@@ -219,6 +233,7 @@ footer {
 
 #contact a {
     color: black;
+    text-decoration: none;
 }
 
 #contact a :hover {
