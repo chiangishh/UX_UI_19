@@ -251,6 +251,7 @@ footer {
 .arms img {
     width: 500px;
     height: 700px;
+    border-radius: 30px;
 }
 .heading3 {
     grid-column: 3 ;
