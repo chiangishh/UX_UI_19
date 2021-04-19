@@ -53,13 +53,14 @@
 .jumbotron {
     max-width: 1200px;
     margin: 0 auto;
-    height: 550px;
-    background-image: url(stop\ aapi\ hate!.png);
+    height: 600px;
+    background-image: url(cclheader.png);
 }
 .lead {
     padding-top: 420px;
-    width: 350px;
+    width: 270px;
     font-size: 14px;
+    padding-left: 30px;
 }
 .overview {
     max-width: 1200px;
@@ -111,7 +112,7 @@
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Viga', sans-serif;
-    background-image:url(pink.png) ;
+    background-image:url(blue.png) ;
 }
 .problem p {
     width: 1150px;
@@ -294,6 +295,7 @@ footer {
 #resume a :hover {
     color: green;
 }
+
 
 .next {
     padding-top: 10px;
