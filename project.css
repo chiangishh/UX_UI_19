@@ -331,3 +331,18 @@ footer {
     text-decoration: none;
     color: red;
 }
+.link a {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: indianred;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.link {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Viga', sans-serif;
+    padding-top: 20px;
+}
