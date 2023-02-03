@@ -253,6 +253,8 @@ footer {
     height: 500px;
     border-radius: 10px;
 }
+
+
 .heading3 {
     grid-column: 3 ;
     grid-row: 3;
